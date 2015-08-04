@@ -1,8 +1,8 @@
-int posX1 = 273;
+int posX1 = 202;
 int posY1 = 216;
 
-int posX2 = 300;
-int posY2 = 200;
+int posX2 = 273;
+int posY2 = 216;
 
 void setup() {
   size(520, 600);
@@ -28,18 +28,18 @@ void draw() {
   ellipse(222, 217, 53, 27);
   
   fill(0);
-  ellipse(202, 216, 10, 10);
+  ellipse(posX1, posY1, 10, 10);
   posX1++;
   
-  if(posX1 > 236) {
-     posX1 = 201;
+  if(posX1 > 232) {
+     posX1 = 202;
   }
   
-  ellipse(273, 216, 10, 10);
+  ellipse(posX2, posY2, 10, 10);
   posX2++;
   
-  if(posX2 > 300) {
-     posX2 = 100;
+  if(posX2 > 303) {
+     posX2 = 273;
      
   }
 
