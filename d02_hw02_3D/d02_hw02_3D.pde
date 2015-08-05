@@ -1,5 +1,5 @@
 float a;                 // Angle of rotation
-float offset = PI/24.0;  // Angle offset between boxes
+float offset = 24.0;  // Angle offset between boxes
 int num = 6;            // Number of boxes
 
 void setup() { 
