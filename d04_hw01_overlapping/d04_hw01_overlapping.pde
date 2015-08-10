@@ -2,7 +2,7 @@ float r = 0;
 float speed = 5;
 
 void setup() {
-  size(600, 600);
+  size(900, 900);
   background(0);
   smooth();
 }
