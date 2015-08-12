@@ -9,6 +9,7 @@ void setup() {
   noStroke();
   fill(255);
   rectMode(CENTER);
+  frameRate(10);
 }
 
 void draw() {

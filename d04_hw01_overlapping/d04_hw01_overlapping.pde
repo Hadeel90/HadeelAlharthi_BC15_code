@@ -1,5 +1,4 @@
 float r = 0;
-float speed = 5;
 
 void setup() {
   size(900, 900);
