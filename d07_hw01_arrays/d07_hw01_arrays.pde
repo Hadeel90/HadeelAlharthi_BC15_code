@@ -12,8 +12,6 @@ void draw() {
   background(0);
   
   for(int i=0; i<posX.length; i++) {
-
-    
     strokeWeight(3);
     stroke(random(360), 100, 200, 200);
     if(i<posX.length-1) {
