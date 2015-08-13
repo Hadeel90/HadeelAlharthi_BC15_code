@@ -2,6 +2,8 @@ color c = color(0);
 PVector pos = new PVector(0,100);
 PVector pos2 = new PVector(0, 450);
 PVector speed = new PVector(0, 0);
+PVector speed2 = new PVector(0, 0);
+
 //float x = 0;
 //float x2 = 0;
 //float y = 100;
@@ -16,7 +18,7 @@ void setup() {
 void draw() {
   background(0);
   pos.add(speed);
-  pos2.add(speed);
+  pos2.add(speed2);
   red();
   blue();
 }
@@ -55,12 +57,12 @@ void keyPressed() {
     if (pos.x > width) {
       pos.x = 0;
     }
+  }
   if (key == 'l') {
-    pos2.add(speed);
-    speed.x += 0.2;
+    pos2.add(speed2);
+    speed2.x += 0.2;
     if (pos2.x > width) {
       pos2.x = 0;
     }
-  }
   }
 }
